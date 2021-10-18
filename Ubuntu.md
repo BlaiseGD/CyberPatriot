@@ -1,4 +1,4 @@
-#CyberPatriot Ubuntu
+CyberPatriot Ubuntu
  
 Ubuntu Commands && Flags
   Note: In essence a directory is a folder, flags are case sensitive
