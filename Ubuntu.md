@@ -115,7 +115,7 @@ port 4269
 Protocol 2
 	PermitEmptyPasswords no
 
-	Why? PermitRootLogin has a known vulnerability, usePAM is a backend for authentification (which we want), change port to above 1000 so it's less likely to be fooled around with by outside entities, Protocol 1 has many vulnerabilites and is insecure, X11 forwarding allows you to start remote applications and forward it to a machine which as you can imagine; it brings a whole host of issues, Protocol 2 is way more secure than Protocol 1, PermitEmptyPasswords... do I really have to explain this one?
+Why? PermitRootLogin has a known vulnerability, usePAM is a backend for authentification (which we want), change port to above 1000 so it's less likely to be fooled around with by outside entities, Protocol 1 has many vulnerabilites and is insecure, X11 forwarding allows you to start remote applications and forward it to a machine which as you can imagine; it brings a whole host of issues, Protocol 2 is way more secure than Protocol 1, PermitEmptyPasswords... do I really have to explain this one?
 
 COMMAND: sudo systemctl restart ssh.service or sudo systemctl restart ssh.service or sudo stop ssh then sudo start ssh
 restart ssh with the new things added. This is mostly to make sure we get the points
